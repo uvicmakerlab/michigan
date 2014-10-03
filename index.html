@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		
+		<!-- TITLE OF PRESENTATION -->
+		<title>"The Data Knows You Better Than You Do" and Other Constructions | U. of Michigan | Data, Social Justice, and the Humanities | Jentery Sayers</title>
+		
+		<!-- DESCRIPTION OF PRESENTATION  -->
+		<meta name="description" content="University of Michigan, October 3, 2014">
+		
+		<!-- AUTHOR --> 
+		<meta name="author" content="Jentery Sayers">
+		
+		<!-- RESPONSIVE DESIGN -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- CSS FOR THE FRAMEWORK -->
+		<link rel="stylesheet" href="css/reveal.min.css">
+		
+		<!-- CSS FOR PRESENTATION CONTENT -->
+		<link rel="stylesheet" href="css/theme.css" id="theme">
+	
+		<!-- CSS FOR SYNTAX HIGHLIGHTING -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		
+		<!-- OUTPUTTING IN PDF (doesn't work that well, to be honest) -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+	</head>
+	
+	<!-- BEGIN SLIDEDECK -->
+	
+	<body>
+		<div class="reveal">
+		<div class="slides">
+		<!-- BEGIN SLIDES -->	
+		<section>
+			<section id="title" data-background="images/max.jpg">
+  			<h2>"The Data Knows You Better Than You Do" and Other Constructions</h2>
+  			<h3><a href="http://www.jenterysayers.com/" target="_blank">Jentery Sayers</a> | <a href="http://english.uvic.ca/" target="_blank">University of Victoria</a> | <a href="https://twitter.com/jenterysayers" target="_blank">@jenterysayers</a><br>
+  			<a href="http://www.lsa.umich.edu/humanities/events/digitalcurrents/ci.datasocialjusticeandthehumanitiesconferencefri3oct2014_ci.detail" target="_blank">Data, Social Justice, and the Humanities</a><br>University of Michigan | 3 October 2014</h3>
+ 			<small>Image care of <a href="http://maker.uvic.ca/author/shaun/" target="_blank">Shaun Macpherson</a> | Made using Max/MSP and iSight</small>
+  			</section> 
+
+  			<section id="follow" data-background="images/max.jpg">
+  			<h2>Follow Along?</h2>
+  			<h3>This slide deck is online<br>
+  			<a href="http://uvicmakerlab.github.io/michigan" target="_blank">uvicmakerlab.github.io/michigan</a></h3>
+  			<h3>With the source files at<br>
+  			<a href="https://github.com/uvicmakerlab/michigan" target="_blank">
+  			github.com/uvicmakerlab/michigan/</a></h3>
+  			<small>Image care of <a href="http://maker.uvic.ca/author/shaun/" target="_blank">Shaun Macpherson</a> | Made using Max/MSP and iSight</small>
+  			</section>
+
+  			<section id="today" data-background="images/hello.jpg">
+  			<h2>Today</h2>
+  			<h3>Digital Humanities as Digital Culture Studies</h3>
+  			<h3 class="fragment">The Internet of Things . . .</h3>
+  			<h3 class="fragment">as a Concept</h3>
+  			<h3 class="fragment">in Practice</h3>
+  			<h3 class="fragment">and Social Justice</h3>
+  			<small>Image care of <a href="http://maker.uvic.ca/" target="_blank">the Maker Lab</a> | Made using The Replicator</small>
+  			</section>
+		</section>
+
+		<section>
+			<section id="dhdc" data-background="images/mcpherson.png">
+  			<h2>Digital Humanities as<br>Digital Culture Studies</h2>
+  			<small>Image care of Tara McPherson and <a href="http://muse.jhu.edu/journals/cinema_journal/v048/48.2.mcpherson.html" target="_blank"><em>Cinema Journal</em> 48.2 (2009)</a></small>
+  			</section>
+
+			<section id="mcpherson" class="transparent" data-background="images/mcpherson2.png">
+  			</section>
+
+			<section id="application" data-background="images/python.png">
+  			<h2>The Application of Computation<br>to the Study of Literature + Culture</h2>
+  			<h3>A Popular Digital Humanities Approach</h3>
+  			<h3>Appeals, too, to Interests in Big Data</h3>
+  			<small>Image care of <a href="http://maker.uvic.ca/" target="_blank">the Maker Lab</a> | Made using Python and Terminal</small>
+  			</section>
+
+  			<section id="scale" data-background="images/mallet.png">
+  			<h2>What Patterns Are Observable at Scale?</h2>
+  			<h3>Alan Liu: "Scale is a new horizon of intellectual inquiry."</h3>
+  			<small>Image care of <a href="http://maker.uvic.ca/author/jana/" target="_blank">Jana Millar Usiskin</a> | Made using <a href="http://mallet.cs.umass.edu/" target="_blank">MALLET</a><br>See Liu, <a href="http://ahh.sagepub.com/content/11/1-2/8" target="_blank">"The State of the Digital Humanities"</a></small>
+  			</section>
+
+  			<section id="viz" data-background="images/mandala.png">
+  			<h2>Data Visualization and Geospatial Mapping</h2>
+  			<h3>Johanna Drucker: "creating graphical expressions<br>that serve humanistic interpretation"</h3>
+  			<small>Image care of <a href="http://maker.uvic.ca/author/katie/" target="_blank">Katie Tanigawa</a> | Made using the <a href="http://mandala.humviz.org/" target="_blank">Mandala Browser</a><br>See Drucker, <a href="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html" target="_blank">"Humanities Approaches to Graphical Display"</a></small>
+  			</section>
+
+			<section id="reading" data-background="images/woolf.png">
+  			<h2>Distant, Algorithmic, or Surface Reading</h2>
+  			<h3>Stephen Best and Sharon Marcus: "Computers are<br>weak interpreters but potent describers..."</h3> 
+  			<small>Image care of <a href="http://uvicmakerlab.github.io/507/r.html" target="_blank">English 507 @ UVic</a> + Virginia Woolf | Made in Terminal<br>See Best and Marcus, <a href="http://www.jstor.org/stable/10.1525/rep.2009.108.1.1" target="_blank">"Surface Reading: An Introduction"</a></small>
+  			</section>
+
+  			<section id="implications" data-background="images/rplot.png">
+  			<h2>Some Implications of this Approach</h2>
+  			<h3>Complicate Assumptions about the Phenomenology and Epistemology of Reading</h3>
+  			<h3 class="fragment">Formally Examine Social Relations</h3>
+			<h3 class="fragment">Expand What "Data" Implies</h3>
+			<h3 class="fragment">Underscore Surprise in Research</h3> 			
+  			<small>Image care of <a href="http://uvicmakerlab.github.io/507/r.html" target="_blank">English 507 @ UVic</a> + Virginia Woolf | Made using R<br>See Moretti, <a href="http://newleftreview.org/II/1/franco-moretti-conjectures-on-world-literature" target="_blank">"Conjectures on World Literature"</a></small>
+  			</section>  
+
+  			<section id="culture" data-background="images/whitereadEmbankmentInvert.jpg">
+  			<h2>A Digital Culture Studies Question . . . </h2>
+  			<h3>(Where Media + Cultural Studies Interpret Computation)</h3>
+  			<small>Image of "Embankment" (2005) care of <a href="http://traverza.blogspot.ca/2012/11/rachel-whiteread.html" target="_blank">Rachel Whiteread and Traverza</a></small>
+  			</section>  
+
+  			<section id="architectures" data-background="images/whitereadEmbankment.jpg">
+  			<h2>What Are the Logics of Architectures?</h2>
+  			<h3>Wendy Hui Kyong Chun: "Computers embody<br>a certain logic of governing or steering through the<br> increasingly complex world around us."</h3>
+  			<small>Image of "Embankment" (2005) care of <a href="http://traverza.blogspot.ca/2012/11/rachel-whiteread.html" target="_blank">Rachel Whiteread and Traverza</a><br>See Chun, <a href="http://mitpress.mit.edu/books/programmed-visions" target="_blank"><em>Programmed Visions</em></a></small>
+  			</section> 
+
+  			<section id="case" data-background="images/arduino.jpg">
+  			<h2>Case in Point: The Internet of Things</h2>
+  			<h3>Bob Violino: "Big data like you've never seen before"</h3>
+  			<small>Image care of <a href="http://maker.uvic.ca/author/arthur/" target="_blank">Arthur Hain</a><br>See Violino, <a href="http://www.infoworld.com/article/2611319/computer-hardware/the--internet-of-things--will-mean-really--really-big-data.html" target="_blank">"The 'Internet of Things' Will Mean Really, Really Big Data"</a></small>
+  			</section>
+
+  		</section> 
+		<section> 
+			<section id="iot" data-background="images/shipAdriftJamesBridle.png">
+  			<h2>The Internet of Things as a Concept</h2>
+  			<small>Image care of James Bridle and <a href="http://shipadrift.com/" target="_blank">Ship Adrift</a></small>
+  			</section> 
+
+  			<section id="interfaces" data-background="images/.png">
+  			<h2>An Architecture for Design Decisions</h2>
+  			<h3 class="fragment">Bruce Sterling on Interfaces:</h3>
+  			<h3 class="fragment">"When I shop, I shop with a wand in my hand."</h3>
+  			<h3 class="fragment">"I need an interface for capitalism itself."</h3>
+  			<small>Image care of</small>
+  			</section> 
+
+  			<!-- an inventory of possessions without remembering -->
+
+  			<section id="eversion" data-background="images/.png">
+  			<h2>An Everted Architecture</h2>
+  			<h3 class="fragment">Steven E. Jones on cyberspace:</h3>
+  			<h3 class="fragment">"from a world apart to a part of the world"</h3>
+  			<h3 class="fragment">"from a transcendent virtual reality to mundane experience"</h3>
+  			<h3 class="fragment">"from a mysterious, invisible abstract world to a still mostly invisible (but real) data-grid"</h3>
+  			<small>Image care of Kevin Begos, Jr. and <a href="http://agrippa.english.ucsb.edu/images/book/medium-images/pages/agrippa-62-63.htm" target="_blank">The <em>Agrippa</em> Files</a> </small>
+  			</section> 
+
+  			<!-- see Gibson and Spook Country; resonates with Sandy Stone and Donna Harway --> 
+
+  			<section id="arnall" data-background="images/.png">
+  			<h2>An Architecture with Computer Vision</h2>
+  			<video controls>
+  			<source src="images/arnall.mp4" type="video/mp4">
+			Your browser does not support the video tag.</video> 
+			<small>Image and Video Care of Timo Arnall at Vimeo</small>
+  			<!-- source https://vimeo.com/36239715 -->
+  			</section>
+  		</section>
+
+  		<section>	
+  			<section id="practice" data-background="images/.png">
+  			<h2>The Internet of Things in Practice</h2>
+  			<small>Image care of</small>
+  			</section> 
+  		</section>
+
+
+  			<!-- speculative approach to how comptuer vision works, and how it gathers data --> 
+
+  			<!-- add Gershenfeld to concepts (programmability of physical world); AutoNets (wearbles); Nina (demanufacturing); Sterling (startups); Arduino and Drones?; Smart Coasts/Environments; Computer Vision Databases of Faces; Minmal Computing?; Igoe and Special Needs Research; Develop not necessarily code; Not Internet of Things but Internet of . . .?; Augmented Ubiquity
+  			-->
+		<!-- Close slides div-->
+		</div>
+		<!-- END SLIDES--> 
+		
+		<!-- BEGIN TRANSITION AND NAVIGATION STYLES / FEATURES --> 
+		
+	<!-- initialize reveal.js + related javascripts --> 
+	
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.min.js"></script>
+	<script>			
+	Reveal.initialize({
+        
+    // Display controls in the bottom right corner
+    controls: true,
+
+    // Display a presentation progress bar
+    progress: true,
+
+    // Push each slide change to the browser history
+    history: true,
+
+    // Enable keyboard shortcuts for navigation
+    keyboard: true,
+
+    // Enable touch events for navigation
+    touch: true,
+    
+    // Enable an annoying rollover effect for links 
+    rollingLinks: false,
+
+    // Enable the slide overview mode
+    overview: true,
+
+    // Vertical centering of slides
+    center: true,
+
+    // Loop the presentation
+    loop: false,
+
+    // Change the presentation direction to be RTL
+    rtl: false,
+
+    // Number of milliseconds between automatically proceeding to the next slide, disabled when set to 0, this value can be overwritten by using a data-autoslide attribute on your slides
+    autoSlide: 0,
+
+    // Enable slide navigation via mouse wheel
+    mouseWheel: false,
+
+    // Transition style
+    transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+    // Transition speed
+    transitionSpeed: 'slow', // default/fast/slow
+
+    // Transition style for full page backgrounds
+    backgroundTransition: 'default', // default/linear/none
+        
+    // Optional libraries used to extend reveal.js | affords syntax highlighting + editing, zoom, speaker notes, and markdown
+		dependencies: [
+		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+		{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		]
+			});
+	</script>	
+	</body>
+	<!-- END SLIDEDECK--> 	
+</html>
